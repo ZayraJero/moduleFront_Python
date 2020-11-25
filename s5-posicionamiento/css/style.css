@@ -1,0 +1,72 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.container-section{
+    position: relative;
+    height: 100vh ;
+}
+
+.container-first{
+    height: 50vh;
+    background-image: url("/s5-posicionamiento/assets/hamburguer.jpg");
+}
+
+.container-second{
+    height: 50vh;
+    background-image: url("/s5-posicionamiento/assets/frenchFries.jpg");
+}
+
+.form-container{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    border-radius: 10px;
+    background-color: #F7DC6F;
+    position: absolute;
+    top: 30%;
+    left: 35%;
+    padding: 15px;
+    width: 30%;
+}
+
+.form-container h1{
+    color: #000000;
+    margin: 15px;
+    font-size: 45px;
+}
+
+.name , .menu{
+    font-size: 23px;
+    padding: 10px;
+}
+
+#name{
+    border: none;
+    background: none;
+    border-bottom: 5px solid #FF0633;
+    font-size: 20px;
+  
+}
+label{
+    font-size: 20px;
+    padding: 5px;
+}
+
+.submit{
+    background:  #F2F3F4;
+    padding: 10px 30px;
+    border: none;
+    border-radius: 15px;
+    margin: 10px;
+    justify-content: end;
+    font-size: 15px;
+}
+
+.submit:hover{
+    background: #FF0633;
+    transition: 0.5s;
+    color: #ffffff;
+    font-weight: bold;
+}
