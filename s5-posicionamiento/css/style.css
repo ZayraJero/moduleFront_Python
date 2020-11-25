@@ -25,33 +25,42 @@
     border-radius: 10px;
     background-color: #F7DC6F;
     position: absolute;
-    top: 30%;
-    left: 35%;
+    top: 25%;
+    left: 10%;
     padding: 15px;
-    width: 30%;
+    width: 80%;
 }
 
 .form-container h1{
     color: #000000;
-    margin: 15px;
-    font-size: 45px;
+    margin: 10px;
+    font-size: 25px;
 }
 
 .name , .menu{
-    font-size: 23px;
+    font-size: 18px;
     padding: 10px;
+    display: flex;
+    flex-direction: column;
 }
 
 #name{
     border: none;
     background: none;
     border-bottom: 5px solid #FF0633;
-    font-size: 20px;
-  
+    font-size: 15px;
+    margin-bottom: 10px;
 }
+
 label{
-    font-size: 20px;
-    padding: 5px;
+    font-size: 15px;
+    padding: 8px;
+    align-items: center;
+}
+
+label:hover{
+    font-weight: bold;
+    transition: 0.3s ease;
 }
 
 .submit{
@@ -61,12 +70,63 @@ label{
     border-radius: 15px;
     margin: 10px;
     justify-content: end;
-    font-size: 15px;
+    font-size: 12px;
+    font-weight: bold;
+    color: #FF0633;
 }
 
 .submit:hover{
     background: #FF0633;
-    transition: 0.5s;
+    transition: 0.5s ease;
     color: #ffffff;
-    font-weight: bold;
+
+}
+
+@media only screen and (min-width: 768px) {
+    .form-container{
+        top: 25%;
+        left: 25%;
+        width: 50%;
+    }
+    .form-container h1{
+        font-size: 30px;
+    }
+    .name , .menu{
+        font-size: 20px;
+    }
+    #name{
+        font-size: 18px;
+    }
+    label{
+        font-size: 17px;
+    }
+    .submit{
+        font-size: 14px;
+    }
+    
+
+@media only screen and (min-width: 1024px) {
+    .form-container{
+        top: 30%;
+        left: 30%;
+        width: 40%;
+    }
+    .form-container h1{
+        font-size: 43px;
+    }
+    .name , .menu{
+        font-size: 23px;
+        flex-direction: row;
+    }
+    #name{
+        font-size: 15px;
+        margin-left: 5px;
+    }
+    label{
+        font-size: 20px;
+    }
+    .submit{
+        font-size: 15px;
+    }
+}
 }
