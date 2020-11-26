@@ -10,12 +10,12 @@
 
 .container-first{
     height: 50vh;
-    background-image: url("/s5-posicionamiento/assets/hamburguer.jpg");
+    background-image: url("../assets/hamburguer.jpg");
 }
 
 .container-second{
     height: 50vh;
-    background-image: url("/s5-posicionamiento/assets/frenchFries.jpg");
+    background-image: url("../assets/frenchFries.jpg");
 }
 
 .form-container{
