@@ -1,5 +1,14 @@
+body{
+  font-weight: bold;
+}
+
 .header {
   margin: 20px 0;
+  color: #ffffff;
+}
+
+#text-black {
+  color: #000000;
 }
 
 .nav {
@@ -20,6 +29,7 @@
 
 .main {
   background: #f05454;
+  color: #ffffff;
 }
 
 .article {
@@ -29,6 +39,7 @@
 
 .footer {
   background: #9d0191;
+  color: #ffffff;
   margin: 20px 0;
   padding: 3px 0 50px 10px;
 }
